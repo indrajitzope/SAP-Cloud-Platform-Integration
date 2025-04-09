@@ -1,0 +1,27 @@
+sap-cpi-iflow-patterns/
+├── README.md
+├── docs/
+│   ├── integration-patterns.md
+│   ├── deployment-guide.md
+│   └── testing-tips.md
+├── patterns/
+│   ├── request-reply/
+│   │   ├── main.iflow
+│   │   ├── README.md
+│   ├── async-message-splitting/
+│   │   ├── main.iflow
+│   │   ├── README.md
+│   ├── exception-handling-pattern/
+│   │   ├── main.iflow
+│   │   ├── groovy/
+│   │   │   └── logError.groovy
+│   │   ├── README.md
+│   └── odata-to-rest-api/
+│       ├── main.iflow
+│       ├── README.md
+├── shared-scripts/
+│   ├── dateUtils.groovy
+│   ├── payloadLogger.groovy
+│   └── xslt/
+│       └── transformCustomer.xsl
+└── changelog.md
